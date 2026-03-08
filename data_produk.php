@@ -1,6 +1,6 @@
 <?php
 include 'koneksi.php';
-// Query mengambil semua data produk dan menggabungkan dengan nama kategori
+// mengambil semua data produk dan menggabungkan dengan nama kategori
 $query = mysqli_query($koneksi, "SELECT produk.*, kategori.nama_kategori 
                                  FROM produk 
                                  JOIN kategori ON produk.id_kategori = kategori.id_kategori");

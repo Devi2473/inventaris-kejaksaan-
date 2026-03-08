@@ -70,7 +70,7 @@ $daftar_kategori = ambilKategori($koneksi);
         </tr>
         <?php 
         $no = 1;
-        // Perulangan (Memenuhi poin 'd' soal)
+        // Perulangan 
         foreach ($daftar_kategori as $data) : 
         ?>
         <tr>

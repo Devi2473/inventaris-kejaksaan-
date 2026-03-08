@@ -4,7 +4,7 @@ include 'koneksi.php';
 
 if (isset($_POST['login'])) {
     $user = $_POST['username'];
-    $pass = $_POST['password']; // Di database kamu adalah admin123
+    $pass = $_POST['password']; // Di database adalah admin123
 
     $query = mysqli_query($koneksi, "SELECT * FROM petugas WHERE username='$user' AND password='$pass'");
     

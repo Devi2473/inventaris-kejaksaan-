@@ -8,7 +8,7 @@ if (isset($_POST['simpan'])) {
     $kondisi = $_POST['kondisi'];
     $id_kat  = $_POST['id_kategori'];
 
-    // Query untuk menyimpan data produk
+    // untuk menyimpan data produk
     $sql = "INSERT INTO produk (nama_barang, merk, jumlah, kondisi, id_kategori) 
             VALUES ('$nama', '$merk', '$jumlah', '$kondisi', '$id_kat')";
     

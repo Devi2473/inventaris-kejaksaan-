@@ -1,8 +1,8 @@
 <?php
-// tambah_produk.php - Memastikan file ini menggunakan PHP
+// tambah_produk.php 
 include 'koneksi.php';
 
-// Query untuk mengambil data kategori secara dinamis (Memenuhi poin k)
+// Query untuk mengambil data kategori secara dinamis
 $query_kategori = mysqli_query($koneksi, "SELECT * FROM kategori");
 ?>
 
@@ -92,7 +92,7 @@ $query_kategori = mysqli_query($koneksi, "SELECT * FROM kategori");
             padding: 12px 15px; 
             border: 1px solid #ddd; 
             border-radius: 8px;
-            box-sizing: border-box; /* Penting agar padding tidak merusak lebar */
+            box-sizing: border-box; /*agar padding tidak merusak lebar */
             font-size: 15px;
             transition: all 0.2s;
             background-color: #fbfbfb;
@@ -108,16 +108,16 @@ $query_kategori = mysqli_query($koneksi, "SELECT * FROM kategori");
             box-shadow: 0 0 0 3px rgba(0,100,0,0.1);
         }
 
-        /* Group untuk input yang berdampingan (misal Merk & Jumlah) */
+        /* Group untuk input yang berdampingan ( Merk & Jumlah) */
         .form-row {
             display: flex;
             gap: 20px;
         }
         .form-row .form-group { flex: 1; }
 
-        /* Tombol Simpan Modern */
+        /* Tombol Simpan M */
         .btn-submit {
-            background-color: #006400; /* Hijau */
+            background-color: #006400; 
             color: white;
             border: none;
             padding: 14px 20px;
